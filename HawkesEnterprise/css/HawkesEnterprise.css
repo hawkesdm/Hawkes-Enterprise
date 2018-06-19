@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Great+Vibes');
+
+
+body {
+	margin:0;
+	padding:0;
+
+}
+
+@font-face{
+
+	font-family: Adventure;
+	src: url('../FONTS/Adventure.otf');
+
+}
+
+@font-face{
+
+	font-family: west;
+	src: url('../FONTS/west.ttf');
+
+}
+
+.bg-company-red {
+    background-color: lightgrey;
+}
+
+nav{
+	width:100%;
+}
+
+.navbar-brand{
+	color:red !important;
+	font-weight:bold !important;
+	font-size:25px !important;
+	border:none;
+font-family: 'Great Vibes', cursive;
+
+}
+
+
+nav a{
+	border: 2px solid;
+	color: black !important;
+	font-weight:bold;
+	font-size:15px;
+	padding:20px;
+	margin-right:20px;
+}
+nav a:hover{
+	background-color:white;
+}
+
+#navbarSupportedContent{
+	margin-right:220px;
+}
+
+.jumbotron{
+	width:100%;
+	min-height:450px;
+	background:url(../img/water.jpg) no-repeat ;
+	background-size:cover;
+	margin:0!important;
+}
+
+.jumbotron h1 {
+	font-size:140px;
+	color:red;
+	text-align:center;
+font-family: 'Great Vibes', cursive;
+
+}
+
+span{
+	font-style:italic;
+	color:white;
+	display:table;
+	margin:0 auto;
+	font-size: 20px;
+}
+
+.jumbotron a{
+	margin-top:15px;
+	margin-left:600px;
+	border:red;
+	background-color:red!important;
+	text-align:center;
+}
+
+
+.jumbotron a:hover{
+	background-color:white!important;
+}
+
+.scroll-down {
+  background-color:red;
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 4s infinite 4s;
+  animation: bounce 3s infinite 2s;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+.sectionOne{
+	background-color:#ff3232;
+	height:250px;
+	padding:0;
+	overflow-x:hidden;
+	width:100%;
+}
+
+.sectionOne h1{
+	color:white;
+	text-align: center;
+	padding-top:20px;
+	font-family: 'Courgette', cursive;
+	font-size:35px;
+}
+
+.spinner{
+	padding-top:40px;
+}
+
+.spinner h3{
+	padding-top:10px;
+	color:white;
+	font-family: 'Courgette', cursive;
+}
+
+.fa-color{
+	color:white;
+}
+
+.sectionTwo{
+	background-color:lightgrey;
+	min-height:400px;
+	overflow-x:hidden;
+}
+
+.sectionTwo h1{
+		font-family: 'Courgette', cursive;
+		text-align:center;
+		margin-top:15px;
+		padding:10px;
+}
+
+.card-deck{
+	padding:20px;
+}
+
+footer{
+	font-size:25px;
+	background-color:black;
+	text-align:center;
+	color:white;
+	min-height:70px;
+	padding-top:25px;
+	padding:25px;
+}
+
+footer a{
+	padding:5px;
+	color:red;
+	font-size:25px;
+}
+
+@media only screen and (max-width: 768px)  {
+	
+	body {overflow-x: hidden;}
+	.jumbotron h1 {font-size:65px!important; margin-top:70px;}
+	span{font-size:15px!important; text-align:center;}
+	.sectionOne h1{margin-top:5px; font-size:25px;}
+	.jumbotron a {display:none!important;}
+	.jumbotron {background-size:cover;}
+	button {margin-bottom: 20px!important;}
+	.sectionOne {overflow-y: hidden;}
+}
+
+@media only screen and (max-width: 1250px) {
+	.jumbotron a {display:none!important;}
+}
+
